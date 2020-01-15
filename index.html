@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Flappy Game</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <canvas id="bird" width="320" height="480"></canvas>
-
-    <div>
-        Lives : <span id="lives">0</span>
+    <div class="welcome">
+        <h1 class="name">FlappyBird</h1>
+        <div>
+            <input class="signin" type="text" placeholder="Enter Your Name">
+        </div>
+        <div class="btns">
+            <a class="continue">Continue</a>
+            <a class="newGame">New Game</a>
+        </div>
     </div>
+    <canvas class="canvas" width="400" height="600" style="background-color: gray; display: none;"></canvas>
+    <script src="main.js"></script>
 </body>
 </html>

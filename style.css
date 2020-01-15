@@ -1,0 +1,47 @@
+.welcome
+{
+    background-image: url("Images/welcome.jpg");
+    background-size:contain;
+    height: 705px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+
+}
+.name
+{
+    font-family: fantasy;
+    font-size: 200px;
+    background: -webkit-linear-gradient(yellow, green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 50px;
+}
+.signin
+{
+    height: 30px;
+    width: 300px;
+
+    background-color:gold;
+}
+a:hover
+{
+cursor: pointer;
+
+}
+a
+{
+    
+    top: 5%;
+    font-family: cursive;
+    font-style: oblique;
+    padding: 50px;
+    font-size: 20px;
+
+}
+.canvas{
+    display: none;
+}
